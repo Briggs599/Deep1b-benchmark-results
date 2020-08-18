@@ -1,0 +1,214 @@
+	Algorithm	Algorithm Parameter Set	Build Time	Best Search Time	Index Size
+0	annoy	"Annoy(n_trees=100, search_k=100)"	3371.788561	0.000179768	20874260
+1	annoy	"Annoy(n_trees=100, search_k=1000)"	3371.788561	0.000422478	20874260
+2	annoy	"Annoy(n_trees=100, search_k=10000)"	3371.788561	0.001983484	20874260
+3	annoy	"Annoy(n_trees=100, search_k=100000)"	3371.788561	0.014685233	20874260
+4	annoy	"Annoy(n_trees=100, search_k=200)"	3371.788561	0.000210345	20874260
+5	annoy	"Annoy(n_trees=100, search_k=2000)"	3371.788561	0.000618309	20874260
+6	annoy	"Annoy(n_trees=100, search_k=20000)"	3371.788561	0.003563119	20874260
+7	annoy	"Annoy(n_trees=100, search_k=200000)"	3371.788561	0.027768049	20874260
+8	annoy	"Annoy(n_trees=100, search_k=400)"	3371.788561	0.000269206	20874260
+9	annoy	"Annoy(n_trees=100, search_k=4000)"	3371.788561	0.000970372	20874260
+10	annoy	"Annoy(n_trees=100, search_k=40000)"	3371.788561	0.006429178	20874260
+11	annoy	"Annoy(n_trees=100, search_k=400000)"	3371.788561	0.05366159	20874260
+12	faiss-ivf	"FaissIVF(n_list=1024, n_probe=1)"	213.6820827	0.00143698	5104928
+13	faiss-ivf	"FaissIVF(n_list=1024, n_probe=10)"	213.6820827	0.013111752	5104928
+14	faiss-ivf	"FaissIVF(n_list=1024, n_probe=100)"	213.6820827	0.11624752	5104928
+15	faiss-ivf	"FaissIVF(n_list=1024, n_probe=200)"	213.6820827	0.225664469	5104928
+16	faiss-ivf	"FaissIVF(n_list=1024, n_probe=5)"	213.6820827	0.006728131	5104928
+17	faiss-ivf	"FaissIVF(n_list=1024, n_probe=50)"	213.6820827	0.060201508	5104928
+18	faiss-ivf	"FaissIVF(n_list=128, n_probe=1)"	41.33873653	0.010521659	4636608
+19	faiss-ivf	"FaissIVF(n_list=128, n_probe=10)"	41.33873653	0.097554927	4636608
+20	faiss-ivf	"FaissIVF(n_list=128, n_probe=5)"	41.33873653	0.050068507	4636608
+21	faiss-ivf	"FaissIVF(n_list=128, n_probe=50)"	41.33873653	0.459174661	4636608
+22	faiss-ivf	"FaissIVF(n_list=2048, n_probe=1)"	486.6772971	0.000884456	5119992
+23	faiss-ivf	"FaissIVF(n_list=2048, n_probe=10)"	486.6772971	0.006802887	5119992
+24	faiss-ivf	"FaissIVF(n_list=2048, n_probe=100)"	486.6772971	0.059994441	5119992
+25	faiss-ivf	"FaissIVF(n_list=2048, n_probe=200)"	486.6772971	0.115682682	5119992
+26	faiss-ivf	"FaissIVF(n_list=2048, n_probe=5)"	486.6772971	0.003547836	5119992
+27	faiss-ivf	"FaissIVF(n_list=2048, n_probe=50)"	486.6772971	0.031217356	5119992
+28	faiss-ivf	"FaissIVF(n_list=256, n_probe=1)"	62.38319325	0.005287381	5018684
+29	faiss-ivf	"FaissIVF(n_list=256, n_probe=10)"	62.38319325	0.049739284	5018684
+30	faiss-ivf	"FaissIVF(n_list=256, n_probe=100)"	62.38319325	0.452676496	5018684
+31	faiss-ivf	"FaissIVF(n_list=256, n_probe=5)"	62.38319325	0.025540362	5018684
+32	faiss-ivf	"FaissIVF(n_list=256, n_probe=50)"	62.38319325	0.231894634	5018684
+33	faiss-ivf	"FaissIVF(n_list=32, n_probe=1)"	26.77834177	0.040427869	4071908
+34	faiss-ivf	"FaissIVF(n_list=32, n_probe=10)"	26.77834177	0.375327897	4071908
+35	faiss-ivf	"FaissIVF(n_list=32, n_probe=5)"	26.77834177	0.191850749	4071908
+36	faiss-ivf	"FaissIVF(n_list=4096, n_probe=1)"	1264.766042	0.000788029	5130332
+37	faiss-ivf	"FaissIVF(n_list=4096, n_probe=10)"	1264.766042	0.00377506	5130332
+38	faiss-ivf	"FaissIVF(n_list=4096, n_probe=100)"	1264.766042	0.031397531	5130332
+39	faiss-ivf	"FaissIVF(n_list=4096, n_probe=200)"	1264.766042	0.06002822	5130332
+40	faiss-ivf	"FaissIVF(n_list=4096, n_probe=5)"	1264.766042	0.002111572	5130332
+41	faiss-ivf	"FaissIVF(n_list=4096, n_probe=50)"	1264.766042	0.016433557	5130332
+42	faiss-ivf	"FaissIVF(n_list=512, n_probe=1)"	107.7623684	0.002764642	5010788
+43	faiss-ivf	"FaissIVF(n_list=512, n_probe=10)"	107.7623684	0.025975828	5010788
+44	faiss-ivf	"FaissIVF(n_list=512, n_probe=100)"	107.7623684	0.229136325	5010788
+45	faiss-ivf	"FaissIVF(n_list=512, n_probe=200)"	107.7623684	0.442494384	5010788
+46	faiss-ivf	"FaissIVF(n_list=512, n_probe=5)"	107.7623684	0.013380221	5010788
+47	faiss-ivf	"FaissIVF(n_list=512, n_probe=50)"	107.7623684	0.119009553	5010788
+48	faiss-ivf	"FaissIVF(n_list=64, n_probe=1)"	31.3325398	0.022052147	4345428
+49	faiss-ivf	"FaissIVF(n_list=64, n_probe=10)"	31.3325398	0.199713554	4345428
+50	faiss-ivf	"FaissIVF(n_list=64, n_probe=5)"	31.3325398	0.102297106	4345428
+51	faiss-ivf	"FaissIVF(n_list=8192, n_probe=1)"	3777.201485	0.001092479	5179856
+52	faiss-ivf	"FaissIVF(n_list=8192, n_probe=10)"	3777.201485	0.002552864	5179856
+53	faiss-ivf	"FaissIVF(n_list=8192, n_probe=100)"	3777.201485	0.016808786	5179856
+54	faiss-ivf	"FaissIVF(n_list=8192, n_probe=200)"	3777.201485	0.031682777	5179856
+55	faiss-ivf	"FaissIVF(n_list=8192, n_probe=5)"	3777.201485	0.001713069	5179856
+56	faiss-ivf	"FaissIVF(n_list=8192, n_probe=50)"	3777.201485	0.009050578	5179856
+57	faiss-lsh	FaissLSH(n_bits=1024)	171.3156321	0.616220365	1263188
+58	faiss-lsh	FaissLSH(n_bits=128)	20.43280578	0.0739849	157088
+59	faiss-lsh	FaissLSH(n_bits=256)	42.03343058	0.112431384	313864
+60	faiss-lsh	FaissLSH(n_bits=32)	5.678217173	0.061457138	40148
+61	faiss-lsh	FaissLSH(n_bits=512)	78.02383399	0.333937506	627352
+62	faiss-lsh	FaissLSH(n_bits=64)	10.41725302	0.032052122	79176
+63	flann	FLANN(target_precision=0.200000)	4111.127117	0.000437743	4493880
+64	flann	FLANN(target_precision=0.500000)	4369.823965	0.000467022	6104296
+65	flann	FLANN(target_precision=0.700000)	4474.374866	0.001517977	6133644
+66	flann	FLANN(target_precision=0.800000)	4654.912123	0.003159462	6095680
+67	flann	FLANN(target_precision=0.900000)	5199.597457	0.00460854	6226164
+68	flann	FLANN(target_precision=0.950000)	5510.629166	0.009833248	5478896
+69	flann	FLANN(target_precision=0.970000)	6381.740042	0.010122887	5354068
+70	hnswlib	"hnswlib ({'M': 12, 'efConstruction': 500})"	10683.22555	5.77E-05	6145576
+71	hnswlib	"hnswlib ({'M': 12, 'efConstruction': 500})"	10683.22555	0.000289324	6145576
+72	hnswlib	"hnswlib ({'M': 12, 'efConstruction': 500})"	10683.22555	0.000140992	6145576
+73	hnswlib	"hnswlib ({'M': 12, 'efConstruction': 500})"	10683.22555	0.000482403	6145576
+74	hnswlib	"hnswlib ({'M': 12, 'efConstruction': 500})"	10683.22555	0.000139229	6145576
+75	hnswlib	"hnswlib ({'M': 12, 'efConstruction': 500})"	10683.22555	0.000840398	6145576
+76	hnswlib	"hnswlib ({'M': 12, 'efConstruction': 500})"	10683.22555	0.001263533	6145576
+77	hnswlib	"hnswlib ({'M': 12, 'efConstruction': 500})"	10683.22555	0.000222607	6145576
+78	hnswlib	"hnswlib ({'M': 12, 'efConstruction': 500})"	10683.22555	0.001572181	6145576
+79	hnswlib	"hnswlib ({'M': 16, 'efConstruction': 500})"	12568.12702	6.78E-05	6453600
+80	hnswlib	"hnswlib ({'M': 16, 'efConstruction': 500})"	12568.12702	0.000376138	6453600
+81	hnswlib	"hnswlib ({'M': 16, 'efConstruction': 500})"	12568.12702	0.000115375	6453600
+82	hnswlib	"hnswlib ({'M': 16, 'efConstruction': 500})"	12568.12702	0.000573518	6453600
+83	hnswlib	"hnswlib ({'M': 16, 'efConstruction': 500})"	12568.12702	0.000147423	6453600
+84	hnswlib	"hnswlib ({'M': 16, 'efConstruction': 500})"	12568.12702	0.001007906	6453600
+85	hnswlib	"hnswlib ({'M': 16, 'efConstruction': 500})"	12568.12702	0.001475315	6453600
+86	hnswlib	"hnswlib ({'M': 16, 'efConstruction': 500})"	12568.12702	0.000248638	6453600
+87	hnswlib	"hnswlib ({'M': 16, 'efConstruction': 500})"	12568.12702	0.00192754	6453600
+88	hnswlib	"hnswlib ({'M': 24, 'efConstruction': 500})"	15790.91084	9.86E-05	7074004
+89	hnswlib	"hnswlib ({'M': 24, 'efConstruction': 500})"	15790.91084	0.000447721	7074004
+90	hnswlib	"hnswlib ({'M': 24, 'efConstruction': 500})"	15790.91084	0.000121233	7074004
+91	hnswlib	"hnswlib ({'M': 24, 'efConstruction': 500})"	15790.91084	0.00074961	7074004
+92	hnswlib	"hnswlib ({'M': 24, 'efConstruction': 500})"	15790.91084	0.000219047	7074004
+93	hnswlib	"hnswlib ({'M': 24, 'efConstruction': 500})"	15790.91084	0.00132365	7074004
+94	hnswlib	"hnswlib ({'M': 24, 'efConstruction': 500})"	15790.91084	0.00187714	7074004
+95	hnswlib	"hnswlib ({'M': 24, 'efConstruction': 500})"	15790.91084	0.00032546	7074004
+96	hnswlib	"hnswlib ({'M': 24, 'efConstruction': 500})"	15790.91084	0.002443568	7074004
+97	hnswlib	"hnswlib ({'M': 4, 'efConstruction': 500})"	6661.715222	5.54E-05	5559096
+98	hnswlib	"hnswlib ({'M': 4, 'efConstruction': 500})"	6661.715222	0.000154591	5559096
+99	hnswlib	"hnswlib ({'M': 4, 'efConstruction': 500})"	6661.715222	8.23E-05	5559096
+100	hnswlib	"hnswlib ({'M': 4, 'efConstruction': 500})"	6661.715222	0.000236604	5559096
+101	hnswlib	"hnswlib ({'M': 4, 'efConstruction': 500})"	6661.715222	7.59E-05	5559096
+102	hnswlib	"hnswlib ({'M': 4, 'efConstruction': 500})"	6661.715222	0.000455481	5559096
+103	hnswlib	"hnswlib ({'M': 4, 'efConstruction': 500})"	6661.715222	0.000601853	5559096
+104	hnswlib	"hnswlib ({'M': 4, 'efConstruction': 500})"	6661.715222	0.000153522	5559096
+105	hnswlib	"hnswlib ({'M': 4, 'efConstruction': 500})"	6661.715222	0.000818211	5559096
+106	hnswlib	"hnswlib ({'M': 8, 'efConstruction': 500})"	8633.957956	5.99E-05	5842160
+107	hnswlib	"hnswlib ({'M': 8, 'efConstruction': 500})"	8633.957956	0.000223274	5842160
+108	hnswlib	"hnswlib ({'M': 8, 'efConstruction': 500})"	8633.957956	6.54E-05	5842160
+109	hnswlib	"hnswlib ({'M': 8, 'efConstruction': 500})"	8633.957956	0.000346407	5842160
+110	hnswlib	"hnswlib ({'M': 8, 'efConstruction': 500})"	8633.957956	0.000110236	5842160
+111	hnswlib	"hnswlib ({'M': 8, 'efConstruction': 500})"	8633.957956	0.00067577	5842160
+112	hnswlib	"hnswlib ({'M': 8, 'efConstruction': 500})"	8633.957956	0.00093719	5842160
+113	hnswlib	"hnswlib ({'M': 8, 'efConstruction': 500})"	8633.957956	0.000193966	5842160
+114	hnswlib	"hnswlib ({'M': 8, 'efConstruction': 500})"	8633.957956	0.001268168	5842160
+115	hnsw_faiss	"faiss ({'M': 64, 'efConstruction': 500}, ef: 10)"	89478.48338	0.000752161	8931316
+116	hnsw_faiss	"faiss ({'M': 64, 'efConstruction': 500}, ef: 120)"	89478.48338	0.002819614	8931316
+117	hnsw_faiss	"faiss ({'M': 64, 'efConstruction': 500}, ef: 20)"	89478.48338	0.000968506	8931316
+118	hnsw_faiss	"faiss ({'M': 64, 'efConstruction': 500}, ef: 200)"	89478.48338	0.00423462	8931316
+119	hnsw_faiss	"faiss ({'M': 64, 'efConstruction': 500}, ef: 40)"	89478.48338	0.001358756	8931316
+120	hnsw_faiss	"faiss ({'M': 64, 'efConstruction': 500}, ef: 400)"	89478.48338	0.007956195	8931316
+121	hnsw_faiss	"faiss ({'M': 64, 'efConstruction': 500}, ef: 600)"	89478.48338	0.012219379	8931316
+122	hnsw_faiss	"faiss ({'M': 64, 'efConstruction': 500}, ef: 80)"	89478.48338	0.00212085	8931316
+123	hnsw_faiss	"faiss ({'M': 64, 'efConstruction': 500}, ef: 800)"	89478.48338	0.017086749	8931316
+124	NGT-panng	"PANNG-NGT(20, 40, 60, 0.600)"	4234.970782	3.39E-05	15352924
+125	NGT-panng	"PANNG-NGT(20, 40, 60, 0.800)"	4234.970782	4.84E-05	15352924
+126	NGT-panng	"PANNG-NGT(20, 40, 60, 0.900)"	4234.970782	6.13E-05	15352924
+127	NGT-panng	"PANNG-NGT(20, 40, 60, 1.000)"	4234.970782	9.43E-05	15352924
+128	NGT-panng	"PANNG-NGT(20, 40, 60, 1.020)"	4234.970782	0.000105153	15352924
+129	NGT-panng	"PANNG-NGT(20, 40, 60, 1.050)"	4234.970782	0.000126595	15352924
+130	NGT-panng	"PANNG-NGT(20, 40, 60, 1.100)"	4234.970782	0.000179469	15352924
+131	NGT-panng	"PANNG-NGT(20, 40, 60, 1.200)"	4234.970782	0.000423439	15352924
+132	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=1.5, diversify_epsilon=0.50, epsilon=0.000, leaf_size=048)"	13346.61852	0.000285098	44314008
+133	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=1.5, diversify_epsilon=0.50, epsilon=0.040, leaf_size=048)"	13346.61852	0.000427183	44314008
+134	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=1.5, diversify_epsilon=0.50, epsilon=0.080, leaf_size=048)"	13346.61852	0.000435959	44314008
+135	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=1.5, diversify_epsilon=0.50, epsilon=0.120, leaf_size=048)"	13346.61852	0.000560582	44314008
+136	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=1.5, diversify_epsilon=0.50, epsilon=0.160, leaf_size=048)"	13346.61852	0.00075289	44314008
+137	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=1.5, diversify_epsilon=0.50, epsilon=0.200, leaf_size=048)"	13346.61852	0.000960661	44314008
+138	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=1.5, diversify_epsilon=0.50, epsilon=0.240, leaf_size=048)"	13346.61852	0.001274663	44314008
+139	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=2.0, diversify_epsilon=0.50, epsilon=0.000, leaf_size=048)"	13335.02023	0.000304011	44095976
+140	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=2.0, diversify_epsilon=0.50, epsilon=0.040, leaf_size=048)"	13335.02023	0.000395259	44095976
+141	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=2.0, diversify_epsilon=0.50, epsilon=0.080, leaf_size=048)"	13335.02023	0.000492385	44095976
+142	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=2.0, diversify_epsilon=0.50, epsilon=0.120, leaf_size=048)"	13335.02023	0.000636653	44095976
+143	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=2.0, diversify_epsilon=0.50, epsilon=0.160, leaf_size=048)"	13335.02023	0.000867902	44095976
+144	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=2.0, diversify_epsilon=0.50, epsilon=0.200, leaf_size=048)"	13335.02023	0.001108498	44095976
+145	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=2.0, diversify_epsilon=0.50, epsilon=0.240, leaf_size=048)"	13335.02023	0.001470073	44095976
+146	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.0, diversify_epsilon=0.75, epsilon=0.000, leaf_size=032)"	6861.377649	0.000204993	55250896
+147	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.0, diversify_epsilon=0.75, epsilon=0.010, leaf_size=032)"	6861.377649	0.000206368	55250896
+148	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.0, diversify_epsilon=0.75, epsilon=0.020, leaf_size=032)"	6861.377649	0.000212583	55250896
+149	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.0, diversify_epsilon=0.75, epsilon=0.040, leaf_size=032)"	6861.377649	0.000238484	55250896
+150	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.0, diversify_epsilon=0.75, epsilon=0.080, leaf_size=032)"	6861.377649	0.000271808	55250896
+151	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.0, diversify_epsilon=0.75, epsilon=0.120, leaf_size=032)"	6861.377649	0.000325589	55250896
+152	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.0, diversify_epsilon=0.75, epsilon=0.160, leaf_size=032)"	6861.377649	0.000403288	55250896
+153	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.5, diversify_epsilon=0.75, epsilon=0.000, leaf_size=032)"	6984.836256	0.000250701	54346708
+154	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.5, diversify_epsilon=0.75, epsilon=0.010, leaf_size=032)"	6984.836256	0.000288727	54346708
+155	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.5, diversify_epsilon=0.75, epsilon=0.020, leaf_size=032)"	6984.836256	0.000245893	54346708
+156	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.5, diversify_epsilon=0.75, epsilon=0.040, leaf_size=032)"	6984.836256	0.000260787	54346708
+157	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.5, diversify_epsilon=0.75, epsilon=0.080, leaf_size=032)"	6984.836256	0.000314493	54346708
+158	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.5, diversify_epsilon=0.75, epsilon=0.120, leaf_size=032)"	6984.836256	0.000440275	54346708
+159	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.5, diversify_epsilon=0.75, epsilon=0.160, leaf_size=032)"	6984.836256	0.000487689	54346708
+160	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.0, diversify_epsilon=1.00, epsilon=0.000, leaf_size=032)"	6663.758491	0.000202038	54853796
+161	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.0, diversify_epsilon=1.00, epsilon=0.010, leaf_size=032)"	6663.758491	0.000197109	54853796
+162	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.0, diversify_epsilon=1.00, epsilon=0.020, leaf_size=032)"	6663.758491	0.000205109	54853796
+163	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.0, diversify_epsilon=1.00, epsilon=0.040, leaf_size=032)"	6663.758491	0.000222812	54853796
+164	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.0, diversify_epsilon=1.00, epsilon=0.080, leaf_size=032)"	6663.758491	0.000280643	54853796
+165	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.0, diversify_epsilon=1.00, epsilon=0.120, leaf_size=032)"	6663.758491	0.000298925	54853796
+166	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.0, diversify_epsilon=1.00, epsilon=0.160, leaf_size=032)"	6663.758491	0.000368376	54853796
+167	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.5, diversify_epsilon=1.00, epsilon=0.000, leaf_size=032)"	6723.326982	0.000221281	54798188
+168	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.5, diversify_epsilon=1.00, epsilon=0.010, leaf_size=032)"	6723.326982	0.000282239	54798188
+169	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.5, diversify_epsilon=1.00, epsilon=0.020, leaf_size=032)"	6723.326982	0.000217933	54798188
+170	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.5, diversify_epsilon=1.00, epsilon=0.040, leaf_size=032)"	6723.326982	0.000236247	54798188
+171	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.5, diversify_epsilon=1.00, epsilon=0.080, leaf_size=032)"	6723.326982	0.000276421	54798188
+172	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.5, diversify_epsilon=1.00, epsilon=0.120, leaf_size=032)"	6723.326982	0.000364226	54798188
+173	pynndescent	"PyNNDescent(n_neighbors=20, pruning_mult=1.5, diversify_epsilon=1.00, epsilon=0.160, leaf_size=032)"	6723.326982	0.000402272	54798188
+174	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=1.5, diversify_epsilon=1.00, epsilon=0.000, leaf_size=048)"	11934.32706	0.000204955	49365260
+175	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=1.5, diversify_epsilon=1.00, epsilon=0.040, leaf_size=048)"	11934.32706	0.000248028	49365260
+176	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=1.5, diversify_epsilon=1.00, epsilon=0.080, leaf_size=048)"	11934.32706	0.00029518	49365260
+177	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=1.5, diversify_epsilon=1.00, epsilon=0.120, leaf_size=048)"	11934.32706	0.000339989	49365260
+178	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=1.5, diversify_epsilon=1.00, epsilon=0.160, leaf_size=048)"	11934.32706	0.000434998	49365260
+179	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=1.5, diversify_epsilon=1.00, epsilon=0.200, leaf_size=048)"	11934.32706	0.000552223	49365260
+180	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=1.5, diversify_epsilon=1.00, epsilon=0.240, leaf_size=048)"	11934.32706	0.000714108	49365260
+181	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=2.0, diversify_epsilon=1.00, epsilon=0.000, leaf_size=048)"	11923.57351	0.000219885	50035428
+182	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=2.0, diversify_epsilon=1.00, epsilon=0.040, leaf_size=048)"	11923.57351	0.000273936	50035428
+183	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=2.0, diversify_epsilon=1.00, epsilon=0.080, leaf_size=048)"	11923.57351	0.000289405	50035428
+184	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=2.0, diversify_epsilon=1.00, epsilon=0.120, leaf_size=048)"	11923.57351	0.000341415	50035428
+185	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=2.0, diversify_epsilon=1.00, epsilon=0.160, leaf_size=048)"	11923.57351	0.000451565	50035428
+186	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=2.0, diversify_epsilon=1.00, epsilon=0.200, leaf_size=048)"	11923.57351	0.000552783	50035428
+187	pynndescent	"PyNNDescent(n_neighbors=40, pruning_mult=2.0, diversify_epsilon=1.00, epsilon=0.240, leaf_size=048)"	11923.57351	0.000733177	50035428
+188	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=15'])"	6143.939755	0.000454198	9361952
+189	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=15'])"	6143.939755	0.0005111	9361952
+190	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=15'])"	6143.939755	0.000646239	9361952
+191	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=15'])"	6143.939755	0.000929381	9361952
+192	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=30'])"	12849.11855	0.001950111	12788024
+193	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=30'])"	12849.11855	0.002307293	12788024
+194	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=30'])"	12849.11855	0.002873552	12788024
+195	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=30'])"	12849.11855	0.003693382	12788024
+196	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=30'])"	12849.11855	0.000784882	12788024
+197	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=30'])"	12849.11855	0.004433289	12788024
+198	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=30'])"	12849.11855	0.005430115	12788024
+199	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=30'])"	12849.11855	0.001120485	12788024
+200	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=30'])"	12849.11855	0.006388332	12788024
+201	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=30'])"	12849.11855	0.007242699	12788024
+202	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=30'])"	12849.11855	0.00775894	12788024
+203	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=30'])"	12849.11855	0.001453903	12788024
+204	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=3'])"	1936.558644	0.000173527	6666416
+205	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=3'])"	1936.558644	0.000410402	6666416
+206	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=3'])"	1936.558644	0.000162877	6666416
+207	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=3'])"	1936.558644	0.000202291	6666416
+208	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=3'])"	1936.558644	0.000173105	6666416
+209	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=3'])"	1936.558644	0.000264817	6666416
+210	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=3'])"	1936.558644	0.000295815	6666416
+211	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=3'])"	1936.558644	0.000179532	6666416
+212	SW-graph(nmslib)	"Nmslib(method_name=sw-graph, index_param=['NN=3'])"	1936.558644	0.000310698	6666416
